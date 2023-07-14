@@ -1,4 +1,4 @@
-// import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/SA-ICON.png",
   },
   openGraph: {
     images: [ogimage],
@@ -37,9 +37,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#000000] text-white">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="bg-[#000000] text-white font-mainf">
         {children}
-        {/* <Analytics /> */}
+        <Analytics />
       </body>
     </html>
   );
