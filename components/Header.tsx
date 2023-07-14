@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="sticky top-2 z-50 flex flex-col xs:flex-row justify-between items-center w-full rounded-full pb-2 bg-gradient-to-r from-bluemain via-purplemain to-orange gap-2">
       <div className="flex flex-col xs:flex-row justify-between items-center w-full rounded-full bg-[#000000]">
-        <a href="/" className="pr-72">
+        <a href="#" className="pr-72">
           <img
             className="ml-5"
             alt="header text"
@@ -33,8 +33,7 @@ export default function Header() {
           </a>
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full px-5 py-2 text-sm shadow-md hover:bg-gradient-to-r hover:from-[#cc3d7e] hover:to-orange bg-gradient-to-r from-bluemain to-purplemain font-medium transition text-white"
-            href=""
-            target="_blank"
+            href="#signUp"
             rel="noopener noreferrer"
           >
             <p>Sign Up</p>
