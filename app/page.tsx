@@ -126,7 +126,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section id="roadmap" className="pt-44 mb-24">
+        <section id="roadmap" className="pt-44 mb-36">
           <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-6xl">
             {" "}
             <span className="relative whitespace-nowrap text-blue-600">
@@ -143,13 +143,13 @@ export default function HomePage() {
               </div>
               <ul className="text-sm ml-2">
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Adopt modern technologies and methodologies
+                 Market Research and Plannings
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  To provide certainty and honesty when buyin
+                  Team Formation and Infrastructure Setup
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Reinforce the value of each pair of sneakers
+                  NFT Token Design and Development
                 </li>
               </ul>
             </div>
@@ -161,13 +161,13 @@ export default function HomePage() {
               </div>
               <ul className="text-sm ml-2">
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Adopt modern technologies and methodologies
+                  Sneaker Authentication System Development
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  To provide certainty and honesty when buyin
+                  Smart Contract Development
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Reinforce the value of each pair of sneakers
+                  Partnership and Integration
                 </li>
               </ul>
             </div>
@@ -179,13 +179,13 @@ export default function HomePage() {
               </div>
               <ul className="text-sm ml-2">
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Adopt modern technologies and methodologies
+                  Pilot Testing and Refinemen
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  To provide certainty and honesty when buyin
+                  User Interface and Experience
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Reinforce the value of each pair of sneakers
+                  Marketing and Awareness
                 </li>
               </ul>
             </div>
@@ -197,21 +197,21 @@ export default function HomePage() {
               </div>
               <ul className="text-sm ml-2">
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Adopt modern technologies and methodologies
+                  Scaling and Expansion
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  To provide certainty and honesty when buyin
+                  Community Building
                 </li>
                 <li className="text-sm list-disc text-center sm:text-left">
-                  Reinforce the value of each pair of sneakers
+                  Continuous Improvement
                 </li>
               </ul>
             </div>
           </div>
         </section>
 
-        <section id="team" className="pt-36 mb-36">
-          <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-6xl">
+        <section id="team" className="pt-30 mb-36">
+          <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-6xl mt-36">
             Meet our{" "}
             <span className="relative whitespace-nowrap text-blue-600">
               <span className="relative gradientText">Team</span>
