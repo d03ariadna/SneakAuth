@@ -6,15 +6,14 @@ export default function Header() {
 
     <header className="sticky top-2 z-50 flex flex-col xs:flex-row justify-between items-center w-full rounded-full pb-2 bg-gradient-to-r from-bluemain via-purplemain to-orange gap-2">
       <div className="flex flex-col xs:flex-row justify-between items-center w-full rounded-full bg-[#000000]">
-        <a href="#" className="pr-72">
+        <a href="#" className="sm:pr-72">
           <img
-            className="ml-5"
+            className="sm:ml-5 sm:w-[150px] ml-3 w-[50px]"
             alt="header text"
             src="/SA-LOGO.png"
-            width={150}
           />
         </a>
-        <div className="flex flex-col xs:flex-row items-center w-full mt-3 pb-4 ml-16 sm:px-4 px-2 justify-between">
+        <div className="sm:flex flex-col xs:flex-row items-center w-full sm:mt-3 pb-4 sm:ml-16 sm:px-4 justify-between sm:visible hidden">
           <a href="#about" className="">
             About Us
           </a>
@@ -24,14 +23,6 @@ export default function Header() {
           <a href="#team">Team</a>
         </div>
         <div className="flex flex-col xs:flex-row justify-end items-center w-full mt-3 pb-4 sm:px-4 px-2">
-          <a
-            className="flex max-w-fit items-center justify-center space-x-2 rounded-full text-white px-5 py-2 mr-5 text-sm border border-white font-medium transition"
-            href="https://github.com/Nutlope/roomGPT"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p>Log In</p>
-          </a>
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full px-5 py-2 text-sm shadow-md hover:bg-gradient-to-r hover:from-[#cc3d7e] hover:to-orange bg-gradient-to-r from-bluemain to-purplemain font-medium transition text-white"
             href="#signUp"
