@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
+
     <header className="sticky top-2 z-50 flex flex-col xs:flex-row justify-between items-center w-full rounded-full pb-2 bg-gradient-to-r from-bluemain via-purplemain to-orange gap-2">
       <div className="flex flex-col xs:flex-row justify-between items-center w-full rounded-full bg-[#000000]">
         <a href="#" className="pr-72">
