@@ -1,6 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
+import ReactPlayer from 'react-player';
 // 
 
 let title = "SneakAuth";

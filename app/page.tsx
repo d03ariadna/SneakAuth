@@ -6,15 +6,15 @@ export default function HomePage() {
     <div className="flex max-w-7xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Header />
       <img src="/SA-MAIN.png" alt="MAIN" />
-      <div id="about"></div>
+      
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4">
-        <div className="flex justify-between w-full flex-col mt-20">
-          <div className="flex flex-col space-y-10 mt-5 mb-6">
-            <div className="flex sm:space-x-8 mb-20 sm:flex-row flex-col justify-between">
-              <section id="AboutPage" className="flex">
-                <div className="sm:mt-0 mt-8">
-                  <h1 className="mb-1 font-bold text-5xl">About Us</h1>
-                  <img alt="video" src="/SA-MAIN.png" className="w-full" />
+        <div className="flex justify-between w-full flex-col ">
+          <div className="flex flex-col space-y-10 mb-6 ">
+            <div className="flex sm:space-x-8 mb-20 sm:flex-row  flex-col justify-between ">
+              <section id="about" className="flex w-full">
+                <div className="sm:mt-32 mt-8 w-full ">
+                  <h1 className="mb-1 font-bold text-5xl sm:text-6xl">About Us</h1>
+                    <iframe width="840" height="472" src="https://www.youtube.com/embed/VIAobbuubdg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="mx-auto mt-4"></iframe>
                 </div>
               </section>
             </div>
