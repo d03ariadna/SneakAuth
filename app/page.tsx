@@ -14,7 +14,7 @@ export default function HomePage() {
               <section id="about" className="flex w-full">
                 <div className="sm:mt-32 mt-8 w-full ">
                   <h1 className="mb-1 font-bold text-5xl sm:text-6xl">About Us</h1>
-                    <iframe width="840" height="472" src="https://www.youtube.com/embed/VIAobbuubdg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="mx-auto mt-4"></iframe>
+                    <iframe width="840" height="472" src="https://www.youtube.com/embed/VIAobbuubdg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="mx-auto mt-4 w-full"></iframe>
                 </div>
               </section>
             </div>
