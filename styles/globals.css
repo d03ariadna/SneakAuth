@@ -4,11 +4,8 @@
 
 @media (min-width: 400px) {
   .background-gradient::before {
-    background: radial-gradient(
-      20% 50% at 50% 50%,
-      rgba(71, 127, 247, 0.376) 0%,
-      rgba(37, 38, 44, 0) 100%
-    );
+    background: 
+      rgba(0, 0, 0, 0) 100%;
     z-index: -10;
     content: "";
     position: absolute;
@@ -16,4 +13,32 @@
     transform: scale(1);
     pointer-events: none;
   }
+}
+
+.gradient{
+  background: rgb(14,0,255);
+  background: linear-gradient(135deg, rgba(14,0,255,1) 0%, rgba(160,0,255,1) 40%, rgba(247,114,51,1) 90%);
+}
+
+.gradientText{  
+  background: -webkit-linear-gradient(left, #FF7A00, #A000FF, #0E00FF);
+  background: linear-gradient(to right, #0E00FF, #A000FF, #FF7A00);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;  
+}  
+
+.gradientFill{
+  fill: #0E00FF;
+  fill: linear-gradient(135deg, rgba(14,0,255,1) 0%, rgba(160,0,255,1) 40%, rgba(247,114,51,1) 90%);
+}
+
+.gradientBorder{
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%) 1;
+}
+
+.gCircleBorder{
+  border-radius: 20%;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%) 1;
 }
