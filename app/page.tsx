@@ -1,10 +1,6 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-
 export default function HomePage() {
   return (
     <div className="flex max-w-7xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
-      <Header />
       <img src="/SA-MAIN.png" alt="MAIN" />
 
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4">
@@ -14,7 +10,7 @@ export default function HomePage() {
               <section id="about" className="flex w-full">
                 <div className="sm:mt-32 mt-8 w-full ">
                   <h1 className="mb-1 font-bold text-5xl sm:text-6xl">
-                    About Us EDITED
+                    About Us
                   </h1>
                   <iframe
                     width="840"
@@ -235,7 +231,7 @@ export default function HomePage() {
               className="w-full sm:w-1/3 p-10 rounded-lg shadow sm:p-6 md:p-8 mx-5"
             >
               <img
-                src="https://media.licdn.com/dms/image/D4E03AQHoQBS-lHsWYg/profile-displayphoto-shrink_400_400/0/1666110944741?e=1694649600&v=beta&t=sgeGyDQan5m_fjcUDS26n3dImwo2w85LJ7GjgfgoJco"
+                src="https://media.licdn.com/dms/image/D4E03AQHoQBS-lHsWYg/profile-displayphoto-shrink_800_800/0/1666110944741?e=1700697600&v=beta&t=PtXZfmcQh979DmnEeN2BaiSTSJ5ovO_akcLKxIjAcMc"
                 alt="Gibrán Reyes Picture"
                 width={"250px"}
                 className="mx-auto rounded-full drop-shadow-[0_35px_35px_rgba(20,0,255,0.25)]"
@@ -249,7 +245,7 @@ export default function HomePage() {
               className="w-full sm:w-1/3 p-10 rounded-lg shadow sm:p-6 md:p-8 mx-5"
             >
               <img
-                src="https://media.licdn.com/dms/image/D4E03AQEqFEcyuwPpkw/profile-displayphoto-shrink_400_400/0/1689307596509?e=1694649600&v=beta&t=hMeNT7gMcYq2PAKZC4xjx3BWxoCkKOpdoxIWIKIoCvo"
+                src="https://media.licdn.com/dms/image/D4E03AQEqFEcyuwPpkw/profile-displayphoto-shrink_800_800/0/1689307596509?e=1700697600&v=beta&t=FmLUfD9YfJiPcfQPWO-Kc6EW4XWMBrh6GUNvEb6RWEg"
                 alt="Ariadna Martínez Picture"
                 width={"250px"}
                 className="mx-auto rounded-full drop-shadow-[0_35px_35px_rgba(154,0,255,0.25)]"
@@ -260,30 +256,12 @@ export default function HomePage() {
               <p>FrontEnd Developer</p>
             </a>
             <a
-              href="https://www.linkedin.com/in/rodrigo-se-mx/"
-              target={"_blank"}
-              className="w-full sm:w-1/3 p-10 sm:p-6 md:p-8 mx-5"
-            >
-              <img
-                src="https://media.licdn.com/dms/image/D5603AQHlVtH1NJEUGQ/profile-displayphoto-shrink_400_400/0/1675462139075?e=1694649600&v=beta&t=qYa3NOWClnvkkuVt0trziGatckhRbI419R2wiB37qgc"
-                alt="Rodrigo Espino Picture"
-                width={"250px"}
-                className="mx-auto rounded-full drop-shadow-[0_35px_35px_rgba(255,122,0,0.25)]"
-              />
-              <p className="text-3xl font-outf text-white mt-5">
-                Rodrigo Espino
-              </p>
-              <p>Blockchain Developer</p>
-            </a>
-          </div>
-          <div className="flex justify-center w-full  sm:flex-row flex-col sm:mt-10 pt-4">
-            <a
               href="https://www.linkedin.com/in/abraham-orozco-m/"
               target={"_blank"}
               className="w-full sm:w-1/3 p-10 rounded-lg shadow sm:p-6 md:p-8 mx-5"
             >
               <img
-                src="https://media.licdn.com/dms/image/D4E03AQGxaby_QIhwDA/profile-displayphoto-shrink_400_400/0/1686293842019?e=1694649600&v=beta&t=yihwYxmbH_quUeZkFHQuDj0_njA1ecOqlGqg_JMOb1k"
+                src="https://media.licdn.com/dms/image/D4E03AQGxaby_QIhwDA/profile-displayphoto-shrink_800_800/0/1686293842019?e=1700697600&v=beta&t=FOnmi-Q3jCCHTCC1eH64XJS_5wtTUshY_gkaeq-y29E"
                 alt="Abraham Orozco Picture"
                 width={"250px"}
                 className="mx-auto rounded-full drop-shadow-[0_35px_35px_rgba(154,0,255,0.35)]"
@@ -292,20 +270,6 @@ export default function HomePage() {
                 Abraham Orozco
               </p>
               <p>Backend Developer</p>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/jonathan-uriel-duran-carrasco-4a4845242/"
-              target={"_blank"}
-              className="w-full sm:w-1/3 p-10 rounded-lg shadow sm:p-6 md:p-8 mx-5"
-            >
-              <img
-                src="https://media.licdn.com/dms/image/D5603AQGQh85ZoFOwkg/profile-displayphoto-shrink_400_400/0/1685216779417?e=1694649600&v=beta&t=qtzh8dzcTcY8o7pQiZRuvJHimGXs-Y1lK9hpYJz_jUQ"
-                alt="Uriel Duran Picture"
-                width={"250px"}
-                className="mx-auto rounded-full drop-shadow-[0_35px_35px_rgba(255,122,0,0.25)]"
-              />
-              <p className="text-3xl font-outf text-white mt-5">Uriel Durán</p>
-              <p>Blockchain Developer</p>
             </a>
             <a
               href="https://www.linkedin.com/in/fernandoponce/"
@@ -348,7 +312,6 @@ export default function HomePage() {
           </form>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

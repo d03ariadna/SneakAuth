@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="sticky top-2 z-50 flex flex-col xs:flex-row justify-between items-center w-full rounded-full pb-2 bg-gradient-to-r from-bluemain via-purplemain to-orange gap-2">
       <div className="flex flex-col xs:flex-row justify-between items-center w-full rounded-full bg-[#000000]">
-        <a href="#" className="sm:pr-72">
+        <a href="/#" className="sm:pr-72">
           <img
             className="sm:ml-5 sm:w-[150px] ml-3 w-[50px]"
             alt="header text"
@@ -16,10 +16,11 @@ export default function Header() {
           <a href="#about" className="">
             About Us
           </a>
-          <a href="#statics">Statics</a>
-          <a href="#project">Project</a>
-          <a href="#roadmap">Roadmap</a>
-          <a href="#team">Team</a>
+          <a href="/#statics">Statics</a>
+          <a href="/#project">Project</a>
+          <a href="/#roadmap">Roadmap</a>
+          <a href="/#team">Team</a>
+          <a href="/verify">Verify</a>
         </div>
         <div className="flex flex-col xs:flex-row justify-end items-center w-full mt-3 pb-4 sm:px-4 px-2">
           <a
