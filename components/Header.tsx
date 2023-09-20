@@ -12,23 +12,20 @@ export default function Header() {
             src="/SA-LOGO.png"
           />
         </a>
-        <div className="sm:flex flex-col xs:flex-row items-center w-full sm:mt-3 pb-4 sm:ml-16 sm:px-4 justify-between sm:visible hidden">
-          <a href="#about" className="">
-            About Us
-          </a>
+        <div className="sm:flex flex-col xs:flex-row items-center w-full sm:mt-3 pb-4 sm:ml-16 sm:px-4 justify-between  sm:visible hidden">
+          <a href="/#about">About Us</a>
           <a href="/#statics">Statics</a>
           <a href="/#project">Project</a>
           <a href="/#roadmap">Roadmap</a>
           <a href="/#team">Team</a>
-          <a href="/verify">Verify</a>
         </div>
         <div className="flex flex-col xs:flex-row justify-end items-center w-full mt-3 pb-4 sm:px-4 px-2">
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full px-5 py-2 text-sm shadow-md hover:bg-gradient-to-r hover:from-[#cc3d7e] hover:to-orange bg-gradient-to-r from-bluemain to-purplemain font-medium transition text-white"
-            href="#signUp"
+            href="/verify"
             rel="noopener noreferrer"
           >
-            <p>Sign Up</p>
+            <p>Verify</p>
           </a>
         </div>
       </div>

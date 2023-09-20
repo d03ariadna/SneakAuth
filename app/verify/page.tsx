@@ -1,18 +1,15 @@
 export default function VerifyPage() {
   return (
-    <div className="flex max-w-7xl mx-auto flex-col items-center justify-center py-[100px]">
+    <div className="flex max-w-7xl mx-auto flex-col items-center justify-center py-[110px]">
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4">
         <div className="relative">
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-            <label htmlFor="user">
-              <img
-                src="/camerabtn.png"
-                alt="camera"
-                className="w-[100px] rounded-full"
-              />
-            </label>
+            <label
+              htmlFor="user"
+              className="bg-[url('/camerabtn.png')] hover:bg-[url('/camerabtnhover.png')] w-[100px] h-[100px] bg-cover rounded-full"
+            ></label>
           </div>
-          <img src="/Verify.png" alt="VERIFY" className="w-[450px]" />
+          <img src="/Verify.png" alt="VERIFY" className="w-[450px] " />
           <input
             type="file"
             id="user"

@@ -289,28 +289,6 @@ export default function HomePage() {
             </a>
           </div>
         </section>
-
-        <section id="signUp">
-          <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-gray-300 sm:text-7xl ">
-            Want to know more?
-          </h1>
-          <form className="w-full mt-10 mb-20">
-            <div className="flex items-center py-2">
-              <input
-                className="appearance-none bg-transparent w-full text-slate-200 mr-3 py-4 px-8 leading-tight focus:outline-none border-white rounded-2xl"
-                type="text"
-                placeholder="Write your email"
-                aria-label="Full name"
-              ></input>
-              <button
-                className="flex-shrink-0 bg-white text-black shadow-md hover:bg-gradient-to-r from-bluemain to-purplemain font-bold hover:text-white py-4 px-8 rounded-2xl"
-                type="button"
-              >
-                Sign Up
-              </button>
-            </div>
-          </form>
-        </section>
       </main>
     </div>
   );
